@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="container">
+        <input type="text" placeholder="0" id="valor">
+        <div class="number cinza" id="ac" onclick="calcular('acao', 'AC')"><h2>AC</h2></div>
+        <div class="number laranja" onclick="calcular('acao', '/')"><h2>÷</h2></div>
+
+        <div class="number" onclick="calcular('valor',7)"><h2>7</h2></div>
+        <div class="number" onclick="calcular('valor',8)"><h2>8</h2></div>
+        <div class="number" onclick="calcular('valor',9)"><h2>9</h2></div>
+
+        <div class="number laranja" onclick="calcular('acao', '*')"><h2>x</h2></div>
+
+        <div class="number" onclick="calcular('valor', 4)"><h2>4</h2></div>
+        <div class="number" onclick="calcular('valor', 5)"><h2>5</h2></div>
+        <div class="number" onclick="calcular('valor', 6)"><h2>6</h2></div>
+
+        <div class="number laranja" onclick="calcular('acao', '-')"><h2>-</h2></div>
+
+        <div class="number" onclick="calcular('valor', 1)"><h2>1</h2></div>
+        <div class="number" onclick="calcular('valor' ,2)"><h2>2</h2></div>
+        <div class="number" onclick="calcular('valor', 3)"><h2>3</h2></div>
+
+        <div class="number laranja" onclick="calcular('acao', '+')"><h2>+</h2></div>
+
+        <div class="number" id="botaoMaior" onclick="calcular('valor', 0)""><h2>0</h2></div>
+
+        <div class="number" onclick="calcular('acao', '.')"><h2>.</h2></div>
+        <div class="number laranja" onclick="calcular('acao', '=')"><h2>=</h2></div>
+
+        <div id="limpar"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

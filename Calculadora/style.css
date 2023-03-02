@@ -1,0 +1,71 @@
+.number{
+    float: left;
+    width: 73px;
+    text-align:center;
+    height: 73px;
+    background-color: #343434;
+    border-radius: 100%;
+    margin: 2px;
+    cursor:context-menu;
+}
+
+.number:hover{
+    background-color: #3d3d3d;
+}
+
+#container{
+    border: 1px solid black;
+    width: 310px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+#limpar{
+    clear: both;
+}
+
+#nove{
+    margin-left: 100px;
+}
+
+#valor{
+    height: 70px;
+    margin-top: 10px;
+    width: 97%;
+    text-align:end;
+    background-color: black;
+    border: none;
+    color: azure;
+    font-size: 3em;
+}
+
+.cinza{
+    background-color: #A7A6A7;
+}
+
+.cinza:hover{
+    background-color: #bcbcbc;
+}
+
+.laranja{
+    background-color: #FF9503;
+}
+
+.laranja:hover{
+    background-color: #f9a42d;
+}
+
+#botaoMaior{
+    width: 150px;
+    height: 70px;
+    border-radius: 35%;
+}
+
+#ac{
+    width: 227px;
+    height: 70px;
+    border-radius: 35%;
+}
